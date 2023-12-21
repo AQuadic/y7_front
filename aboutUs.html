@@ -1258,7 +1258,7 @@
               <a class="nav-link" href="#"> Privacy</a>
             </li>
             <li class="nav-item lang">
-              <button>EN</button>
+              <button id="ch_lang">EN</button>
               
             </li>
           </ul>
@@ -1333,6 +1333,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
+       const btn_lang = document.getElementById("ch_lang");
+      function ch() {
+        window.document.dir === "rtl"
+          ? (window.document.dir = "ltr")
+          : (window.document.dir = "rtl");
+      }
+      btn_lang.addEventListener("click", ch);
       new WOW().init();
     </script>
   </body>
