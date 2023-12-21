@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Y7</title>
+    <link rel="icon" type="image/x-icon" href="./images/logo.svg" />
+    <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon" />
     <meta
       name="description"
       content="We provide support your with the asset to share and publish your vehicles"
@@ -16,7 +18,11 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="./css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -643,12 +649,16 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="aboutUs.html">About us </a>
+              <a class="nav-link active" aria-current="page" href="aboutUs.html"
+                >About us
+              </a>
             </li>
-          
+
             <li class="nav-item itemLogo">
               <a class="navbar-brand" href="index.html">
                 <svg
@@ -1253,14 +1263,18 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/aboutUs.html">Contact us </a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/aboutUs.html"
+                >Contact us
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"> Privacy</a>
             </li>
             <li class="nav-item lang">
-              <button>EN</button>
-              
+              <button id="ch_lang">EN</button>
             </li>
           </ul>
         </div>
@@ -1353,57 +1367,56 @@
     <section class="process">
       <div class="container">
         <div class="content">
-          <h2>Simple Process and your Ad is Live </h2>
+          <h2>Simple Process and your Ad is Live</h2>
           <p>
-            We provide support your with the asset to share and publish your vehicles, selling or buying, and other things with very simple steps and organized processes
-            it’ will take you   to publish 1st Ad
+            We provide support your with the asset to share and publish your
+            vehicles, selling or buying, and other things with very simple steps
+            and organized processes it’ will take you to publish 1st Ad
           </p>
           <div class="wrap">
             <div class="slider">
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
               <div class="item">
                 <div class="boxImg">
-                  <img src="./images/iPhone1.png" alt="iPhone">
+                  <img src="./images/iPhone1.png" alt="iPhone" />
                 </div>
               </div>
             </div>
           </div>
-         
-        
         </div>
       </div>
     </section>
@@ -1417,8 +1430,8 @@
             <div class="part2">
               <h2>Sell or Buy</h2>
               <p class="decReach">
-                A lot of Categories to search from and find your best choice, just
-                a few clicks and We are <span>DONE</span>.
+                A lot of Categories to search from and find your best choice,
+                just a few clicks and We are <span>DONE</span>.
               </p>
               <div class="easy">
                 <h3>Easy to reach</h3>
@@ -1703,7 +1716,6 @@
         </div>
       </div>
     </section>
-   
 
     <section class="contactUs">
       <div class="container">
@@ -1774,30 +1786,36 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
       new WOW().init();
+      const btn_lang = document.getElementById("ch_lang");
+      function ch() {
+        window.document.dir === "rtl"
+          ? (window.document.dir = "ltr")
+          : (window.document.dir = "rtl");
+      }
+      btn_lang.addEventListener("click", ch);
     </script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
     <script>
-      $('.slider').slick({
-       slidesToShow: 3,
-       slidesToScroll: 1,
-       arrows: true,
-       dots: false,
-       rtl:false,
-       centerMode: true,
-       variableWidth: true,
-      
-       infinite: true,
-       focusOnSelect: true,
-       cssEase: 'linear',
-       touchMove: true,
-       prevArrow:'<button class="slick-prev"> < </button>',
-       nextArrow:'<button class="slick-next"> > </button>',
-       
-             
-               
-     });
-     
-     </script>
+      $(".slider").slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        dots: false,
+        rtl: false,
+        centerMode: true,
+        variableWidth: true,
+
+        infinite: true,
+        focusOnSelect: true,
+        cssEase: "linear",
+        touchMove: true,
+        prevArrow: '<button class="slick-prev"> < </button>',
+        nextArrow: '<button class="slick-next"> > </button>',
+      });
+    </script>
   </body>
 </html>
