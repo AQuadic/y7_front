@@ -916,6 +916,9 @@ html::-webkit-scrollbar-track {
   .reach .content .part2 .easy .parts .numbers .num .infoNum p {
     font-size: 14px;
   }
+  .reach {
+    margin-bottom: 60px;
+}
 }
 
 /*end reach*/
@@ -1260,19 +1263,30 @@ element.style {
 .slick-arrow {
   position: absolute;
   top: 50%;
-  width: 40px;
+  width: 50px;
   height: 50px;
   line-height: 50px;
   margin-top: -25px;
   border: none;
   background: transparent;
-  color: var(--main_color);
+  color: #1877F2;
   font-family: monospace;
-  font-size: 5rem;
-  z-index: 300;
+  font-size: 26px;
+   z-index: 300; 
   outline: none;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.10));
+border: 1px solid #3478f6;
+transition: 0.3s;
 }
-
+.slick-arrow:hover {
+  background-color: #1877F2;
+  color: white;
+}
 .slick-prev {
   left: -50px;
   text-align: left;
@@ -1282,7 +1296,43 @@ element.style {
   right: -50px;
   text-align: right;
 }
+.slider ul.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  height: 32px;
+}
 
+.slider ul.slick-dots li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #4885f7;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.slider ul.slick-dots li.slick-active{
+  opacity: 1;
+position: relative;
+}
+.slider ul.slick-dots li.slick-active::before{
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 130%;
+  height: 130%;
+  border-radius: 50%;
+  border: 2px solid #5486fa;
+  transition: 0.5s;
+}
+.slider ul.slick-dots li button{
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
 .item.slick-slide {
   width: 400px;
   transition: transform 0.4s;
@@ -1358,9 +1408,42 @@ element.style {
 }
 
 @media (max-width: 768px) {
+  .process .content h2 {  
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 14px;
+}
+.wrap{
+  margin-top: 14px;
+}
+.process .content p {
+
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px auto 20px;
+}
   .wrap .item {
     width: 400px;
   }
+  .slider ul.slick-dots li.slick-active::before {
+    top: 55%;
+    left: 51%;
+    width: 143%;
+    height: 143%;
+    border: 1px solid #5486fa;
+}
+.slider ul.slick-dots li {
+  width: 10px;
+  height: 10px;
+ 
+}
+.slider ul.slick-dots {
+  gap: 10px;
+  height: 16px;
+}
+.slick-arrow{
+  display: none;
+}
 }
 
 @media (max-width: 530px) {
