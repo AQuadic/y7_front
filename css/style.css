@@ -1136,7 +1136,12 @@ footer .content p {
 /*end aboutPage*/
 /*start process*/
 .process {
+  background-image: url('../images/maskgroup.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .process .content {
 }
 .process .content h2 {
@@ -1155,7 +1160,7 @@ footer .content p {
   font-size: 16px;
   line-height: 24px; /* 150% */
   max-width: 600px;
-  margin: 0px auto 70px;
+  margin: 0px auto 40px;
 }
 /*end process*/
 .twoSection {
@@ -1452,5 +1457,17 @@ position: relative;
   }
   .boxImg img {
     max-width: 46%;
+  }
+}
+svg:hover #red{
+ 
+  animation: red 0.3s infinite linear;
+}
+@keyframes red {
+  0% {
+    fill: rgb(163, 15, 15);
+  }
+  100% {
+    fill: #b55e07;
   }
 }
