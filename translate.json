@@ -1,0 +1,126 @@
+[{
+    "ar":{
+        "nav":{
+            "Home":"الصفحه الرئسيه",
+            "About":"من نحن",
+            "Contact":"اتصل بنا",
+            "Privacy":"الخصوصية"
+        },
+        "about":{
+            "1":" افعل ذلك الآن",
+            "2":"شراء",
+            "3": "أو",
+            "4": "بيع",
+            "5":"جميع المركبات البحرية",
+            "6": "الآن",
+            "decAbout":"مع تطبيق Y7 Trading، يمكنك نشر إعلانك لبيع سيارتك في مجتمع كبير وهو أمر مثير للاهتمام فقط على المركبات والمعدات البحرية."
+        },
+        "brand":{
+            "title":"العلامات التجارية تثق بنا"
+        },
+        "process":{
+            "title":"عملية بسيطة وإعلانك مباشر",
+            "decProcess":"نحن نقدم الدعم لك بالأصول لمشاركة ونشر مركباتك، والبيع أو الشراء، وأشياء أخرى بخطوات بسيطة جدًا وعمليات منظمة، وسوف يستغرق الأمر منك نشر الإعلان الأول"
+
+        },
+        "reach":{
+            "title":"بيع أو شراء",
+            "decTitle1": "هناك الكثير من الفئات التي يمكنك البحث منها والعثور على خيارك الأفضل، فقط بضع نقرات ونحن جاهزون",
+            "done":"تم",
+            "title2":"سهولة الوصول",
+            "by":"بواسطة",
+            "Phone":"رقم الهاتف",
+            "or":"او",
+            "WhatsApp":"واتس اب",
+            "owner ":" يمكنك الوصول إلى مالك الإعلا، ويمكن للعملاء أيضًا العثور عليك"  
+        },
+        "download":{
+            "title":"بتنزيل التطبيق الآن",
+            "decDownload":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.  Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat."
+        },
+        "contact":{
+            "title":"اتصل بنا",
+            "decContact": "ابق على اتصال، فريقنا في انتظار تواصلك دائمًا، لا تتردد في الاتصال بنا",
+            "Email":"البريد الإلكتروني",
+            "friendly":"فريقنا الودود موجود لمساعدتك.",
+            "WhatsApp":"واتس اب",
+            "Come":"تعال وألقي التحية في المقر الرئيسي لمكتبنا.",
+            "Phone":"الهاتف"
+        },
+        "aboutPage":{
+            "title":"معلومات عنا",
+            "title2":"نحن منصة تداول متخصصة في مركبات الشاطئ",
+            "Brands":"العلامات التجارية تثق بنا",
+            "title3":"نحن منصة تداول متخصصة في مركبات الشاطئ",
+            "decAboutPage":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et dui ullamcorper, placerat tellus blandit, posuere quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed varius tortor imperdiet, congue quam eu, vehicula sem. Vestibulum tincidunt, eros sed placerat consectetur, leo neque egestas augue, sollicitudin dignissim diam ipsum nec tellus. Aenean aliquam enim elit, posuere bibendum nibh consequat vel. In consectetur ipsum quis sem maximus aliquam. Sed imperdiet ipsum est, et efficitur urna convallis quis."
+        },
+        "PrivacyPage":{
+            "title":"الخصوصية",
+            "title2": "سياسة الخصوصية الخاصة بنا",
+            "title3": "نحن منصة تداول متخصصة في مركبات الشاطئ",
+            "decPrivacyPage":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et dui ullamcorper, placerat tellus blandit, posuere quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed varius tortor imperdiet, congue quam eu, vehicula sem. Vestibulum tincidunt, eros sed placerat consectetur, leo neque egestas augue, sollicitudin dignissim diam ipsum nec tellus. Aenean aliquam enim elit, posuere bibendum nibh consequat vel. In consectetur ipsum quis sem maximus aliquam. Sed imperdiet ipsum est, et efficitur urna convallis quis."
+        }
+    },
+    "en":{
+        "nav":{
+            "Home":"Home",
+            "About":"About us",
+            "Contact":"Contact us",
+            "Privacy":"Privacy"
+        },
+        "about":{
+            "1":" DO IT NOW",
+            "2":"BUY",
+            "3":"OR",
+            "4":"SELL",
+            "5":"ALL SEA VeHicLeS",
+            "6":"NOW",
+            "decAbout":"with Y7 Trading App, you can post your ad for selling your Vehicle in Large Community which interesting only on Sea vehicles and Equipments."
+        },
+        "brand":{
+            "title":"Brands trust us"
+        },
+        "process":{
+            "title":"SIMPLE PROCESS AND YOUR AD IS LIVE",
+            "decProcess":" We provide support your with the asset to share and publish your vehicles, selling or buying, and other things with very simple steps and organized processes it’ will take you to publish 1st Ad"
+
+        },
+        "reach":{
+            "title":"SELL OR BUY",
+            "decTitle1":" A lot of Categories to search from and find your best choice, just a few clicks and We are",
+            "done":"DONE",
+            "title2":"Easy to reach",
+            "by":"by",
+            "Phone":"Phone number",
+            "or":"or",
+            "WhatsApp":"WhatsApp",
+            "owner":" you can reach the AD owner, and customers also can find you"
+        },
+        "download":{
+            "title":"Download App Now",
+            "decDownload":" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae, nullam lobortis enim.  Faucibus amet etiam tincidunt rhoncus, ullamcorper velit. Ullamcorper risus tempor, ac nunc libero urna, feugiat."
+        },
+        "contact":{
+            "title":"Contact US",
+            "decContact":"Keep in touch, our Team Always waiting for your, feel free to contact us",
+            "Email":"Email",
+            "friendly":"Our friendly team is here to help.",
+            "WhatsApp":"WhatsApp",
+            "Come":"Come say hello at our office HQ.",
+            "Phone":"Phone"
+        },
+        "aboutPage":{
+            "title":"About US ",
+            "title2":"We Trading platform specialized in Beach Vehicles",
+            "Brands":"Brands trust us",
+            "title3":"We Trading platform specialized in Beach Vehicles",
+            "decAboutPage":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et dui ullamcorper, placerat tellus blandit, posuere quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed varius tortor imperdiet, congue quam eu, vehicula sem. Vestibulum tincidunt, eros sed placerat consectetur, leo neque egestas augue, sollicitudin dignissim diam ipsum nec tellus. Aenean aliquam enim elit, posuere bibendum nibh consequat vel. In consectetur ipsum quis sem maximus aliquam. Sed imperdiet ipsum est, et efficitur urna convallis quis."
+        },
+        "PrivacyPage":{
+            "title":"Privacy",
+            "title2":"Our privacy policy",
+            "title3":"We Trading platform specialized in Beach Vehicles",
+            "decPrivacyPage":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et dui ullamcorper, placerat tellus blandit, posuere quam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed varius tortor imperdiet, congue quam eu, vehicula sem. Vestibulum tincidunt, eros sed placerat consectetur, leo neque egestas augue, sollicitudin dignissim diam ipsum nec tellus. Aenean aliquam enim elit, posuere bibendum nibh consequat vel. In consectetur ipsum quis sem maximus aliquam. Sed imperdiet ipsum est, et efficitur urna convallis quis."
+        }
+    }
+}]
