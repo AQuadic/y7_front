@@ -1370,3 +1370,185 @@ svg:hover #red {
  
 }
 }
+/*start footer*/
+footer {
+ 
+}
+footer .allFooter {
+ 
+  padding: 24px 0px;
+}
+footer .content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 100px;
+}
+footer .content .parts {
+  flex: 1;
+  display: flex;
+  gap: 60px;
+  justify-content: space-between;
+  max-width: 800px;
+  flex-wrap: wrap;
+}
+footer .content ul {
+  display: flex;
+  padding: 8px 16px;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+footer .content ul li {
+}
+footer .content ul li .footerLink {
+  padding: 8px 16px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  transition: 0.3s;
+  min-width: max-content;
+  display: block;
+}
+footer .content ul li .footerLink:hover {
+  background: #2b648a4a;
+}
+footer .content ul li .footerLink.active {
+  background: #2b648a;
+}
+footer .navbar-brand {
+  width: 124px;
+  height: 64px;
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  justify-content: center;
+}
+footer .navbar-brand img {
+  max-width: 100%;
+}
+footer .follow {
+}
+footer .follow h2 {
+  color: #fff;
+  font-family: DIN1;
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 22px;
+}
+footer .follow .links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+footer .follow .links a {
+}
+footer .follow .links a svg {
+  width: 36px;
+  height: 36px;
+}
+footer .list {
+  display: flex;
+  gap: 60px;
+}
+footer .copy {
+  background-image: url("../images/copy.webp");
+  background-size: cover;
+}
+footer .copyContent {
+  padding: 26px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+footer .copy p {
+  color: #fff;
+  font-family: DIN3;
+  font-size: 16px;
+  line-height: normal;
+}
+footer .copy p span {
+  font-family: DIN1;
+  color: #fff;
+  font-size: 16px;
+  line-height: normal;
+}
+footer .copy .linkCopy {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+footer .copy .linkCopy a {
+  color: #fff;
+  font-family: DIN1;
+  font-size: 16px;
+
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  footer .content {
+    gap: 30px;
+  }
+  footer .list {
+    gap: 22px;
+  }
+  footer .content ul {
+    padding: 0;
+    gap: 4px;
+  }
+}
+@media (max-width: 600px) {
+  footer .content {
+    flex-direction: column;
+  }
+  footer .content .parts {
+    gap: 30px;
+  }
+  footer .content ul li .footerLink {
+    padding: 8px 4px;
+  }
+  footer .follow h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+  footer .follow .links a svg {
+    width: 32px;
+    height: 32px;
+  }
+  footer .follow .links {
+    gap: 20px;
+  }
+  footer .copy p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  footer .copy p span {
+    font-size: 14px;
+  }
+  footer .copyContent {
+    text-align: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 400px) {
+  footer .navbar-brand {
+    width: 98px;
+    height: 60px;
+  }
+  footer .content ul li .footerLink {
+    padding: 8px 8px;
+
+    font-size: 14px;
+  }
+  footer .content {
+    gap: 20px;
+  }
+}
+/*end footer*/
