@@ -626,10 +626,13 @@ html::-webkit-scrollbar-track {
 .download .content .part2 {
   flex: 1;
 }
-.download .content .part2 img {
-  width: 100%;
-  height: auto;
-  margin: auto;
+
+@media (max-width: 992px) {
+  .download .content .part2 img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
 }
 @media (max-width: 768px) {
   .download .content {
