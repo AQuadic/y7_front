@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "JosefinSans1";
+  }
+@font-face {
+    font-family: "Inter1";
+    src: url("../fonts/DINNextLTArabic-Regular-2.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Inter2";
+    src: url("../fonts/DINNextLTArabic-Medium-4.ttf");
+    font-weight: 600;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Inter3";
+    src: url("../fonts/DINNextLTArabic-Bold-4.ttf");
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "JosefinSans1";
+    src: url("../fonts/DINNextLTArabic-Medium-4.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "JosefinSans2";
+    src: url("../fonts/DINNextLTArabic-Bold-4.ttf");
+    font-weight: 700;
+    font-style: normal;
+  }
