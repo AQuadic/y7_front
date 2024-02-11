@@ -309,9 +309,14 @@ html::-webkit-scrollbar-track {
 }
 .navbar .lang {
   position: absolute;
-  right: 0;
+  right: 30px;
 }
-.navbar .lang button {
+html[dir=rtl] .navbar .lang {
+  right: auto;
+  left: 30px;
+}
+.navbar .lang .chLang{}
+.navbar .lang .chLang {
   border-radius: 6px;
   border: none;
   padding: 4px 13px;
@@ -321,7 +326,7 @@ html::-webkit-scrollbar-track {
   transition: 0.3s;
   box-shadow: 0px 0px 3px;
 }
-.navbar .lang button:hover {
+.navbar .lang .chLang:hover {
   color: #4e90fe;
 }
 @media (max-width: 992px) {
@@ -538,8 +543,23 @@ html::-webkit-scrollbar-track {
 }
 @media (max-width: 768px) {
   .about .content .part2 {
+  max-width: 75%;
+  transform: none;
+  }
+  .about .content .part2 .criclepart{
     display: none;
   }
+  .about .content .part2 .mainImg .hero{
+    max-width: 100%;
+  }
+  .about .content .part2 .mainImg .light {
+  
+    max-width: 220%;
+}
+.about .content .part2 .mainImg .pattern {
+
+  max-width: 158%;
+}
   .about .content .part1 h1 {
     font-size: 56px;
     line-height: 60px;
@@ -1032,6 +1052,13 @@ footer .content p {
   color: #858585 !important;
   font-size: 36px;
   text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.brand h3 svg{
+  width: 100%;
+  height: auto;
 }
 @media (max-width: 768px) {
   .brand h2 {
