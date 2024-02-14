@@ -1582,3 +1582,58 @@ footer .copy .linkCopy a {
   }
 }
 /*end footer*/
+/*payment*/
+.payment{
+  background-image: url('../images/backImg.png');
+  background-position: center;
+  padding: 70px 0px;
+}
+.payment .content{
+ 
+}
+.payment .content .logoPayment{
+  max-width: 100%;
+}
+.payment .content .logoPayment img{
+ 
+  max-width: 150px;
+}
+.payment .content h1 {
+  margin: 20px 0px;
+}
+.payment .content p{
+  font-size: 16px;
+}
+.payment .content form{
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 10px;
+}
+.payment .content form button.pay {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background: #3c5dfb;
+  color: white;
+  border: none;
+  height: 40px;
+  min-width: 100px;
+  border-radius: 29px;
+  margin: 18px auto 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.payment .content form button.pay:hover {
+  box-shadow: 1px 2px 18px #6074d8;
+}
+.payment .content form label{
+  margin-bottom: 10px;
+}
+.payment form .StripeElement {
+  border: 2px solid #3c5dfb5e;
+
+  padding: 16px 10px;
+  border-radius: 20px;
+}
