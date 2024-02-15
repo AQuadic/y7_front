@@ -499,6 +499,8 @@ html[dir=rtl] .navbar .lang {
   bottom: 20px;
   right: 0;
 }
+.about .content .part2 .criclepart .itemRound .infoItem img{}
+.about .content .part2 .criclepart .itemRound .infoItem p{ }
 @keyframes moveInCircle {
   0% {
     transform: rotateZ(0deg);
@@ -547,7 +549,9 @@ html[dir=rtl] .navbar .lang {
   transform: none;
   }
   .about .content .part2 .criclepart{
-    display: none;
+    /*display: none;*/
+    height: 90%;
+    inset: 0% 0%;
   }
   .about .content .part2 .mainImg .hero{
     max-width: 100%;
@@ -580,8 +584,37 @@ html[dir=rtl] .navbar .lang {
   .about .content .part1 {
     padding: 40px 0px 50px;
   }
+  .about .content .part2 .criclepart .itemRound .infoItem p {
+    font-size: 12px;
 }
+.about .content .part2 .criclepart .itemRound .infoItem img {
+  width: 36px;
+}
+.about .content .part2 .infoItem {
+ 
+  gap: 6px;
+  padding: 6px;
+  
+}
+.about .content .part2 .criclepart .itemRound .MainItemImg {
+  margin-bottom: -7px;
+  width: 48%;
+}
+}
+@media (max-width: 560px) {
+  .about .content .part2 {
+    transform: scale(0.88);
+}
+  .about .content .part2 .criclepart .itemRound {
+    width: 180px;
+}
+.about .content .part2 .criclepart {
+ 
+  width: 136%;
 
+  
+}
+}
 /*end about*/
 /*start download*/
 .download {
