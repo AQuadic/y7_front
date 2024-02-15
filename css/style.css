@@ -1587,6 +1587,7 @@ footer .copy .linkCopy a {
   background-image: url('../images/backImg.png');
   background-position: center;
   padding: 70px 0px;
+  min-height: 100vh;
 }
 .payment .content{
  
@@ -1611,6 +1612,7 @@ footer .copy .linkCopy a {
   border-radius: 20px;
   padding: 30px 10px;
 }
+
 .payment .content form button.pay {
   /* display: flex; */
   align-items: center;
@@ -1636,4 +1638,39 @@ footer .copy .linkCopy a {
 
   padding: 16px 10px;
   border-radius: 20px;
+}
+.payment .content .state{
+  max-width: 600px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px 10px;
+}
+.payment .content .state.hide{
+  display: none;
+} 
+.payment .content .state h2{
+  font-size: 32px;
+  text-align: center;
+  margin: 20px auto;
+}
+.payment .content .state.failed{
+  background-color: #d072723b;
+}
+.payment .content .state.failed h2 {
+  color: #e03f3f;
+
+}
+.payment .content .state.successful{
+  background-color: #40e57d3b;
+}
+.payment .content .state.successful h2{
+color: #575757;
+}
+@media (max-width: 600px) {
+  .payment .content .state h2{
+    font-size: 24px;
+
+    margin: 12px auto;
+  }
 }
