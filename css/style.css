@@ -311,11 +311,12 @@ html::-webkit-scrollbar-track {
   position: absolute;
   right: 30px;
 }
-html[dir=rtl] .navbar .lang {
+html[dir="rtl"] .navbar .lang {
   right: auto;
   left: 30px;
 }
-.navbar .lang .chLang{}
+.navbar .lang .chLang {
+}
 .navbar .lang .chLang {
   border-radius: 6px;
   border: none;
@@ -543,23 +544,21 @@ html[dir=rtl] .navbar .lang {
 }
 @media (max-width: 768px) {
   .about .content .part2 {
-  max-width: 75%;
-  transform: none;
+    max-width: 75%;
+    transform: none;
   }
-  .about .content .part2 .criclepart{
+  .about .content .part2 .criclepart {
     display: none;
   }
-  .about .content .part2 .mainImg .hero{
+  .about .content .part2 .mainImg .hero {
     max-width: 100%;
   }
   .about .content .part2 .mainImg .light {
-  
     max-width: 220%;
-}
-.about .content .part2 .mainImg .pattern {
-
-  max-width: 158%;
-}
+  }
+  .about .content .part2 .mainImg .pattern {
+    max-width: 158%;
+  }
   .about .content .part1 h1 {
     font-size: 56px;
     line-height: 60px;
@@ -1056,7 +1055,7 @@ footer .content p {
   align-items: flex-start;
   justify-content: center;
 }
-.brand h3 svg{
+.brand h3 svg {
   width: 100%;
   height: auto;
 }
@@ -1202,9 +1201,7 @@ footer .content p {
   background-repeat: no-repeat;
 }
 
-
 .wrap {
- 
   direction: ltr;
 }
 
@@ -1382,7 +1379,7 @@ svg:hover #red {
 .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
   background: #5486fa;
 }
-.tranding-slider-control .slider-arrow:hover{
+.tranding-slider-control .slider-arrow:hover {
   background: #5486fa;
 }
 @media (max-width: 450px) {
@@ -1390,22 +1387,17 @@ svg:hover #red {
     display: none;
   }
   .tranding-slider-control .swiper-pagination {
-   
     bottom: 2rem;
-}
-.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
-  
-  width: 10px;
-  height: 10px;
- 
-}
+  }
+  .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+  }
 }
 /*start footer*/
 footer {
- 
 }
 footer .allFooter {
- 
   padding: 24px 0px;
 }
 footer .content {
@@ -1583,28 +1575,26 @@ footer .copy .linkCopy a {
 }
 /*end footer*/
 /*payment*/
-.payment{
-  background-image: url('../images/backImg.png');
+.payment {
+  background-image: url("../images/backImg.png");
   background-position: center;
   padding: 70px 0px;
 }
-.payment .content{
- 
+.payment .content {
 }
-.payment .content .logoPayment{
+.payment .content .logoPayment {
   max-width: 100%;
 }
-.payment .content .logoPayment img{
- 
+.payment .content .logoPayment img {
   max-width: 150px;
 }
 .payment .content h1 {
   margin: 20px 0px;
 }
-.payment .content p{
+.payment .content p {
   font-size: 16px;
 }
-.payment .content form{
+.payment .content form {
   max-width: 600px;
   margin: auto;
   background-color: white;
@@ -1628,7 +1618,7 @@ footer .copy .linkCopy a {
 .payment .content form button.pay:hover {
   box-shadow: 1px 2px 18px #6074d8;
 }
-.payment .content form label{
+.payment .content form label {
   margin-bottom: 10px;
 }
 .payment form .StripeElement {
@@ -1636,4 +1626,53 @@ footer .copy .linkCopy a {
 
   padding: 16px 10px;
   border-radius: 20px;
+}
+/*statePayment*/
+.statePayment {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statePayment .content {
+  height: 400px;
+  width: 400px;
+  max-width: 96%;
+  border-radius: 12px;
+
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.statePayment .content img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+.statePayment .content h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.successBox .content {
+  background-color: #aacad742;
+}
+.successBox .content h2 {
+
+  color: #96c283;
+}
+.faildBox .content {
+  background-color: #d7afaa42;
+}
+.faildBox .content h2 {
+
+  color: #c28b83;
 }
