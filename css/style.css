@@ -322,10 +322,10 @@ html[dir="rtl"] .navbar .lang {
   border: none;
   padding: 4px 13px;
   font-family: "JosefinSans2";
-  color: #ff6f41;
-  background-color: #dcdcdc;
+  color: #f57544;
+  background-color: #dcdcdc00;
   transition: 0.3s;
-  box-shadow: 0px 0px 3px;
+  box-shadow: 0px 0px 3px #efac94;
 }
 .navbar .lang .chLang:hover {
   color: #4e90fe;
