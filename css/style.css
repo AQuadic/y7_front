@@ -1660,3 +1660,52 @@ footer .copy .linkCopy a {
   padding: 16px 10px;
   border-radius: 20px;
 }
+/*statePayment*/
+.statePayment {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.statePayment .content {
+  height: 400px;
+  width: 400px;
+  max-width: 96%;
+  border-radius: 12px;
+
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.statePayment .content img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+.statePayment .content h2 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.successBox .content {
+  background-color: #aacad742;
+}
+.successBox .content h2 {
+
+  color: #96c283;
+}
+.faildBox .content {
+  background-color: #d7afaa42;
+}
+.faildBox .content h2 {
+
+  color: #c28b83;
+}
