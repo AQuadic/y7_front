@@ -500,6 +500,8 @@ html[dir="rtl"] .navbar .lang {
   bottom: 20px;
   right: 0;
 }
+.about .content .part2 .criclepart .itemRound .infoItem img{}
+.about .content .part2 .criclepart .itemRound .infoItem p{ }
 @keyframes moveInCircle {
   0% {
     transform: rotateZ(0deg);
@@ -547,7 +549,7 @@ html[dir="rtl"] .navbar .lang {
     max-width: 75%;
     transform: none;
   }
-  .about .content .part2 .criclepart {
+  .about .content .part2 .criclepart{
     display: none;
   }
   .about .content .part2 .mainImg .hero {
@@ -579,8 +581,37 @@ html[dir="rtl"] .navbar .lang {
   .about .content .part1 {
     padding: 40px 0px 50px;
   }
+  .about .content .part2 .criclepart .itemRound .infoItem p {
+    font-size: 12px;
 }
+.about .content .part2 .criclepart .itemRound .infoItem img {
+  width: 36px;
+}
+.about .content .part2 .infoItem {
+ 
+  gap: 6px;
+  padding: 6px;
+  
+}
+.about .content .part2 .criclepart .itemRound .MainItemImg {
+  margin-bottom: -7px;
+  width: 48%;
+}
+}
+@media (max-width: 560px) {
+  .about .content .part2 {
+    transform: scale(0.88);
+}
+  .about .content .part2 .criclepart .itemRound {
+    width: 180px;
+}
+.about .content .part2 .criclepart {
+ 
+  width: 136%;
 
+  
+}
+}
 /*end about*/
 /*start download*/
 .download {
@@ -1579,6 +1610,7 @@ footer .copy .linkCopy a {
   background-image: url("../images/backImg.png");
   background-position: center;
   padding: 70px 0px;
+  min-height: 100vh;
 }
 .payment .content {
 }
@@ -1601,6 +1633,7 @@ footer .copy .linkCopy a {
   border-radius: 20px;
   padding: 30px 10px;
 }
+
 .payment .content form button.pay {
   /* display: flex; */
   align-items: center;
@@ -1626,53 +1659,4 @@ footer .copy .linkCopy a {
 
   padding: 16px 10px;
   border-radius: 20px;
-}
-/*statePayment*/
-.statePayment {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.box {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.statePayment .content {
-  height: 400px;
-  width: 400px;
-  max-width: 96%;
-  border-radius: 12px;
-
-  padding: 10px 20px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.statePayment .content img {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-  height: auto;
-}
-.statePayment .content h2 {
-  font-size: 28px;
-  text-align: center;
-}
-
-.successBox .content {
-  background-color: #aacad742;
-}
-.successBox .content h2 {
-
-  color: #96c283;
-}
-.faildBox .content {
-  background-color: #d7afaa42;
-}
-.faildBox .content h2 {
-
-  color: #c28b83;
 }
